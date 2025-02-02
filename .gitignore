@@ -1,0 +1,59 @@
+# Rust build artifacts
+/target/
+**/*.rs.bk
+Cargo.lock
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Redis dumps
+dump.rdb
+*.rdb
+
+# Log files
+*.log
+logs/
+
+# Debug files
+debug/
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Test coverage
+coverage/
+.tarpaulin-report.html
+
+# Documentation
+/doc/
+/target/doc/
+/target
+/target/
+# Backup files
+*.bak
+*.backup
+*~
+
+# Binary files
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Profiling data
+*.profile
+callgrind.out.*
+perf.data
+perf.data.old
